@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Matematicas Bachillerato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.css">
+    </link>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../assets/maths.jpg" width="50px" alt="logo">
+        <h1 id="main-title">PROGRAMA DE MATEMÁTICAS BACHILLERATO</h1>
+    </header>
+    <hr>
+    <nav>
+        <ul style="list-style-type: none; display: flex; justify-content: space-around;">
+            <li><a class="nav-link" href="#">INICIO</a></li>
+            <li><a class="nav-link" href="#">ALGEBRA</a></li>
+            <li><a class="nav-link" href="#">TRIGONOMETRIA</a></li>
+            <li><a class="nav-link" href="#">GEOMETRIA</a></li>
+            <li><a class="nav-link" href="#">CALCULO</a></li>
+            <li><a class="nav-link" href="#">ESTADISTICA</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <section>
+        <h2>¿Inquietudes?</h2>
+    <p style="text-align: justify;">Todos pueden aprender matemáticas, ya sea que estén estudiando matemáticas avanzadas o solo quieran aprender lo
+        básico. Después de presentarte algunas maneras para ser un buen estudiante de matemáticas, en el presente
+        articulo te enseñaremos la secuencia básica de los cursos de matemáticas y te daremos los elementos básicos que
+        tendrás que aprender en cada curso. Luego, haremos una revisión en bases para aprender aritmética, lo cual será
+        útil tanto para niños de primaria como para cualquier otra persona que tenga que repasar lo fundamental.
+        <a href="">Mas información</a>
+    </p>
+    </section>
+    
+
+    <form action="#">
+        <table style="margin: auto;">
+            <thead>
+                <tr>
+                    <th>
+                        <h2>Diligencia tus datos</h2>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Primer apellido</th>
+                    <td><input class="form-input" type="text" name="primer_apellido"
+                            placeholder="Digite su primer apellido"></td>
+                    <th>Segundo apellido</th>
+                    <td><input class="form-input" type="text" name="segundo_apellido"
+                            placeholder="Digite su segundo apellido"></td>
+                </tr>
+                <tr>
+                    <th>Primer nombre</th>
+                    <td><input class="form-input" type="text" name="primer_nombre"
+                            placeholder="Digite su primer nombre"></td>
+                    <th>Segundo nombre</th>
+                    <td><input class="form-input" type="text" name="segundo_nombre"
+                            placeholder="Digite su segundo nombre"></td>
+                </tr>
+                <tr>
+                    <th>Edad</th>
+                    <td><input class="form-input" name="edad" type="number"></td>
+                    <th>Número de hijos</th>
+                    <td><input class="form-input" name="numero_hijos" type="number"></td>
+                </tr>
+                <tr>
+                    <th>Sexo</th>
+                    <td colspan="3">
+                        <input class="form-input" type="radio" name="sexo" value="Masculino" checked>
+                        <label>Masculino</label>
+                        <input class="form-input" type="radio" name="sexo" value="Femenino"> <label>Femenino</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Nacimiento</th>
+                    <td colspan="3"><input class="form-input" type="date" name="nacimiento"></td>
+                </tr>
+                <tr>
+                    <th>Ultimo grado de estudio</th>
+                    <td colspan="3"><select class="form-input" name="grado_estudio">
+                            <option value="AUXILIAR">AUXILIAR</option>
+                            <option value="PRIMARIA">PRIMARIA</option>
+                            <option value="SECUNDARIA">SECUNDARIA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Años de experiencia</th>
+                    <td><input class="form-input" type="number" name="años_experiencia"></td>
+                    <th>¿Posee vehiculo?</th>
+                    <td>
+                        <input class="form-input" type="radio" name="posee_vehiculo" value="si" checked>
+                        <label>Si</label>
+                        <input class="form-input" type="radio" name="posee_vehiculo" value="no"> <label>No</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="text-align: center;">
+                        <input class="form-button" type="submit" value="Enviar" style="margin-inline: 10%; width: 20%;">
+                        <input class="form-button" type="button" value="Limpiar"
+                            style="margin-inline: 10%; width: 20%;">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+    <footer style="margin-top: 30px;">
+        <a href="https://www.matefacil.com.co">www.matefacil.com.co</a><br>
+        <label>Carrera 45 N 20-10 Barranquilla-Colombia</label><br>
+        <label>095 - 3432512 3004368541</label>
+    </footer>
+</body>
+
+</html>
